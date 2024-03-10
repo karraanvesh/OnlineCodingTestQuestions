@@ -5,7 +5,8 @@ Q : Given an array of n positive intergers and we have two players namely player
     in the array and add that element to their corresponding score and deletes it from the 
     array if current element picked by the player is even then after deleting the current 
     element the array has to be reversed . This game continues until the  array 
-    is empty , your task is to return the difference of score1 and score2 . 
+    is non empty , your task is to return the difference of score1 and score2 after the 
+    game is done  . 
 
     Example Input : n = 5 , nums = [1 , 2 , 3 , 4 , 5]
 
