@@ -1,10 +1,10 @@
 /*
 Q : Given an array of n positive intergers and we have two players namely player1 and player2
-    where score1 and score2 are their corresponding scores . Two players takes alterntive 
+    where score1 and score2 are their corresponding scores . Two players takes alternative 
     turns starting the game with player1 , In each turn the player picks the first element 
     in the array and add that element to their corresponding score and deletes it from the 
     array if current element picked by the player is even then after deleting the current 
-    element from the array the array has to be reversed . This game continues until the  array 
+    element the array has to be reversed . This game continues until the  array 
     is empty , your task is to return the difference of score1 and score2 . 
 
     Example Input : n = 5 , nums = [1 , 2 , 3 , 4 , 5]
