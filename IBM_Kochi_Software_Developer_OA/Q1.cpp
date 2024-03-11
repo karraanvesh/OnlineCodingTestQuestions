@@ -75,29 +75,13 @@ int findDifference(vector<int> &nums , int n) {
             currEle = nums[left];
             left++;
         }
-
         else {
             currEle = nums[right];
             right--;
-        }
+        }  
 
-        ct = ct;
-
-        if(ct%2 == 1) {
-            score1 += currEle;
-
-            if(currEle%2 == 0) {
-                flag = !flag;
-            }
-        }
-
-        else {
-            score2 += currEle;
-
-            if(currEle%2 == 0) {
-                flag = !flag;
-            }
-        }   
+        int val = (ct%2 == 1) ? (score1 += currEle) : (score2 += currEle);
+        flag = (currEle%2 == 0) ? !flag : flag;
     }
 
     int result = score1 - score2;
