@@ -4,7 +4,7 @@ Q : Given an array of n positive intergers nums , your task is to find the count
 
         * gcd(nums[i] , num) = 1 , where num >= 1 and num <= nums[i]
 
-    Find the count of numbers fro every nums[i] and return the resultant vector . 
+    Find the count of numbers for every nums[i] and return the resultant vector . 
 
     Example Input  1 : n = 4 , nums = [1 , 2 , 6 , 10]
 
